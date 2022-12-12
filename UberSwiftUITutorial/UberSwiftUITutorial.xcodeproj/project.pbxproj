@@ -18,6 +18,7 @@
 		3123FF2E293CA4D100DDC677 /* LocationSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3123FF2D293CA4D100DDC677 /* LocationSearchView.swift */; };
 		3123FF30293CA6BB00DDC677 /* LocationSearchResultCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3123FF2F293CA6BB00DDC677 /* LocationSearchResultCell.swift */; };
 		3123FF32293CB24300DDC677 /* LocationSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3123FF31293CB24300DDC677 /* LocationSearchViewModel.swift */; };
+		3123FF34294753E000DDC677 /* MapViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3123FF33294753E000DDC677 /* MapViewState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		3123FF2D293CA4D100DDC677 /* LocationSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchView.swift; sourceTree = "<group>"; };
 		3123FF2F293CA6BB00DDC677 /* LocationSearchResultCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchResultCell.swift; sourceTree = "<group>"; };
 		3123FF31293CB24300DDC677 /* LocationSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchViewModel.swift; sourceTree = "<group>"; };
+		3123FF33294753E000DDC677 /* MapViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		3123FF14293C92D700DDC677 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				3123FF33294753E000DDC677 /* MapViewState.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 				3123FF24293C96BC00DDC677 /* LocationManager.swift in Sources */,
 				3123FF2C293CA38700DDC677 /* MapViewActionButton.swift in Sources */,
 				3123FF07293C928200DDC677 /* UberSwiftUITutorialApp.swift in Sources */,
+				3123FF34294753E000DDC677 /* MapViewState.swift in Sources */,
 				3123FF22293C939D00DDC677 /* UberMapViewRepresentable.swift in Sources */,
 				3123FF20293C934800DDC677 /* HomeView.swift in Sources */,
 				3123FF2A293CA25700DDC677 /* LocationSearchActivationView.swift in Sources */,
